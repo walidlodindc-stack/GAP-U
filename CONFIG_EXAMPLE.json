@@ -1,0 +1,42 @@
+{
+  "project_name": "Project Canary",
+  "version": "GAP-U v2.0",
+  "deployment_tier": "Tier 1 (Business Critical)",
+  
+  "risk_profile": {
+    "c_risk_multiplier": 10.0
+  },
+
+  "safety_budget": {
+    "h_raw": 0.85,
+    "h_eff": 0.085
+  },
+
+  "drift_metrics": {
+    "slices": [
+      "general",
+      "race_black",
+      "race_white",
+      "gender_female",
+      "adversarial"
+    ],
+    "scores": {
+      "general": 0.01,
+      "race_black": 0.04,
+      "adversarial": 0.03
+    },
+    "d_star_final": 0.04
+  },
+
+  "provenance": {
+    "gamma_score": 0.92
+  },
+
+  "kinetic_check": {
+    "kappa": 1.0,
+    "velocity_e": 0.02,
+    "velocity_d": 0.01,
+    "margin": 0.055,
+    "status": "PASS"
+  }
+}
