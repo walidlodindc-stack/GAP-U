@@ -23,11 +23,11 @@ System capability (state variable)
 **dE/dt**  
 Rate of capability increase
 
-**D***  
+**D\***  
 Worst-case drift / failure envelope  
 (Minority-Max rule; adversarial bound)
 
-**dD*/dt**  
+**dD\*/dt**  
 Rate of increase of worst-case drift
 
 **C**  
