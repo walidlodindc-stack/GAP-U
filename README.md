@@ -7,38 +7,39 @@ GAP-U is a deployable safety framework designed to prevent real-world AI failure
 
 ## Core Law
 
-Deployment is permitted **only if the rate of capability increase does not exceed effective safety growth**:
+Deployment is permitted **only if the rate of capability increase does not exceed effective safety growth**.
 
-**Core inequality (canonical):**  
-`dE/dt ≤ κ · (H_eff(C) − dD*/dt)`
+**Core inequality (canonical):**
+
+dE/dt ≤ κ · (H_eff(C) − dD*/dt)
 
 ---
 
 ### Where:
 
-- **E**  
-  System capability (state variable)
+**E**  
+System capability (state variable)
 
-- **dE/dt**  
-  Rate of capability increase
+**dE/dt**  
+Rate of capability increase
 
-- **D***  
-  Worst-case drift / failure envelope  
-  (Minority-Max rule; adversarial bound)
+**D***  
+Worst-case drift / failure envelope  
+(Minority-Max rule; adversarial bound)
 
-- **dD*/dt**  
-  Rate of increase of worst-case drift
+**dD*/dt**  
+Rate of increase of worst-case drift
 
-- **C**  
-  Nominal correction resources  
-  (humans, institutions, tooling, governance, compute)
+**C**  
+Nominal correction resources  
+(humans, institutions, tooling, governance, compute)
 
-- **H_eff(C)**  
-  Effective, consequence-weighted correction capacity  
-  (the portion of C that actually stabilizes the system)
+**H_eff(C)**  
+Effective, consequence-weighted correction capacity  
+(the portion of C that actually stabilizes the system)
 
-- **κ ∈ (0,1]**  
-  Safety margin factor encoding uncertainty and governance conservatism
+**κ ∈ (0,1]**  
+Safety margin factor encoding uncertainty and governance conservatism
 
 ---
 
@@ -46,7 +47,7 @@ Deployment is permitted **only if the rate of capability increase does not excee
 
 If:
 
-`H_eff(C) − dD*/dt ≤ 0`
+H_eff(C) − dD*/dt ≤ 0
 
 then deployment halts **regardless of capability gains**.
 
